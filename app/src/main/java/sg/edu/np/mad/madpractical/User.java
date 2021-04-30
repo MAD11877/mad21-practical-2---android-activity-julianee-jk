@@ -7,6 +7,8 @@ public class User {
     public String description;
     public boolean followed;
 
+    public User() {}
+
     public User(String name, int id, String description, boolean followed) {
         this.name = name;
         this.id = id;
